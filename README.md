@@ -5,7 +5,7 @@ This repository is the Docker container for Python data science packages to supp
 
 * `git clone https://github.com/dataquestio/ds-containers.git DS_docker` to the local machine. 
 * Go to https://www.docker.com/community-edition and install docker for your operating system. Follow the instructions.
-* `sh build_container.sh python2` 
+* CD `DS_docker`, then Run `sh build_container.sh python2` to build the container
 * Run `docker run -d -p 8888:8888 -v ORIGIN_FOLDER:/home/ds/notebooks dataquestio/python2-starter`
     * Replace `ORIGIN_FOLDER` with a folder on your local machine that you want to persist notebooks in. (eg: home/peter/ds_notebook)
 * Open your browser and start working with IPython notebook.
