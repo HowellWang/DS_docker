@@ -1,5 +1,5 @@
-
-An easy way to get started with data science, using Docker.  Containers that come preinstalled with ipython notebook and key packages in the scientific stack.
+## Data-Science-Analysis-with-Python
+This repository is the Docker container for Python data science packages to support multi-platform development. It's the tool I use to support for "Data Science Analysis with Python" to MSBA, MSIS, MSSC and MBA students at the Leavey School of Business at Santa Clara University. 
 
 ## Getting started
 
@@ -11,4 +11,4 @@ An easy way to get started with data science, using Docker.  Containers that com
 * Open your browser and start working with IPython notebook.
     * On Linux, the url will be `localhost:8888`.
     * On Windows/OSX, run `docker-machine ip default` (replace `default` with the name of your machine).  Then, you'll be able to access IPython notebook at `CONTAINER_IP:8888`.
- 
+
